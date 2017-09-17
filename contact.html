@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <script type="js/script1.js"></script>
+    <link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom1.css" rel="stylesheet">
+  </head>
+  <body>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+        <div class="modal-dialog vertical-align-center">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+
+                    </button>
+                     <h4 class="modal-title">Post a Secret</h4>
+
+                </div>
+                <div class="modal-body">
+      <textarea class="form-control" id="comments" name="comments" placeholder="How much are you willing to spend?" rows="5"></textarea>
+        </div>
+                <div class="modal-footer">
+                     <div class="col-lg-5">
+                   <div class="input-group">
+                      <span class="input-group-addon">$</span>
+                        <input type="number" class="form-control" placeholder="Value of Secret" min="0.5" max="50">
+                   </div>   
+                   </div> 
+                    <a href="feed.html" class="btn btn-primary">Post Secret</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-center">
+        <li><a href="profile.html"><span class="glyphicon glyphicon-user"></span></a></li>
+        <li><a href="mywallet.html">MyWallet</a></li>
+        <li><a href="feed.html">Feed</a></li>
+        <li><a href="#myModal" data-toggle="modal" data-target="#myModal">Post a Secret</a></li>
+        <li><a href="explore.html">Discover</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav pull-right">
+        <li><a href="index.html">Logout</a></li>
+        </ul>
+      <p class="navbar-text pull-left">Hi Erin</p>
+      <form class="navbar-form navbar-right">
+      <div class="input-group">
+       
+        <input type="text" class="form-control" placeholder="Search">
+        <div class="input-group-btn">
+
+         <button class="btn btn-default" type="submit">
+                 <a href="otherprofile.html" class="glyphicon glyphicon-search"></a>
+          </button>
+        </div>
+      </div>
+    </form>
+    </div>
+  </div>
+</nav>
+
+<br>
+<br>
+
+<div class="jumbotron">
+  <div class="container">
+    <h2 class="text-center">Contact Us</h2>
+    <br>
+    <h4 class="text-center text-muted">We'd love to hear from you</h4>
+  </div>
+</div>
+
+<div class="container">
+
+<div class="row">
+  <div class="col-lg-4">
+    <img src="images/mail.gif" width="50%" height="50%">
+    <p>EMAIL</p>
+    <a href="#"><p>bankofsecrets@gmail.com </p></a>
+   </div>
+
+    <div class="col-lg-4">
+    <img src="images/phone.gif" width="50%" height="50%">
+    <p>PHONE</p>
+    <p>+04 455 6728</p>
+   </div>
+
+   <div class="col-lg-4">
+    <img src="images/facebook.gif" width="50%" height="50%">
+    <p>FACEBOOK</p>
+    <a href="https://www.facebook.com/"><p>Like us</p></a>
+   </div>
+</div>    
+
+<br>
+<br>
+<br>
+<br>
+
+
+<center>
+ <h3>Send us a message</h3>
+ </center>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name*" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email*" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Your Message*" rows="15"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <a href="contact.html"><button class="btn btn-default btn-responsive pull-right" type="reset">Send</button></a>
+        </div>
+      </div>
+    </div>
+   </div>
+  </div>  
+
+
+
+<hr>
+<center>
+<h2>Find Us</h2>
+</center>
+
+<div id="map">
+<center>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7055.864463659754!2d174.77341424244682!3d-41.29514942681619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb62ac32a2a308cf7!2sVictoria+University+of+Wellington%2C+Faculty+of+Architecture+and+Design!5e0!3m2!1sen!2snz!4v1505381995965" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</center>
+</div>
+
+
+
+
+
+  <div class="navbar navbar-default navbar-footer navbar-fixed-bottom">
+    <div class="container">
+    <center>
+           <a href="profile.html">Home |</a>
+           <a href="#">About Us |</a>
+           <a href="#">Privacy |</a>
+           <a href="#">Settings |</a>
+           <a href="#">Terms |</a>
+           <a href="#">Help |</a>
+           <a href="#">Contact |</a>
+           <a href="index.html">Logout</a>
+     </center>      
+    </div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

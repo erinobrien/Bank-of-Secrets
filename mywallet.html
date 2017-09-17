@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyWallet</title>
+    <link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom1.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+        <div class="modal-dialog vertical-align-center">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+
+                    </button>
+                     <h4 class="modal-title">Post a Secret</h4>
+
+                </div>
+                <div class="modal-body">
+      <textarea class="form-control" id="comments" name="comments" placeholder="How much are you willing to spend?" rows="5"></textarea>
+        </div>
+                <div class="modal-footer">
+                     <div class="col-lg-5">
+                   <div class="input-group">
+                      <span class="input-group-addon">$</span>
+                        <input type="number" class="form-control" placeholder="Value of Secret" min="0.5" max="50">
+                   </div>   
+                   </div> 
+                    <a href="feed.html" class="btn btn-primary">Post Secret</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-center">
+        <li><a href="profile.html"><span class="glyphicon glyphicon-user"></span></a></li>
+        <li><a href="mywallet.html">MyWallet</a></li>
+        <li><a href="feed.html">Feed</a></li>
+        <li><a href="#myModal" data-toggle="modal" data-target="#myModal">Post a Secret</a></li>
+        <li><a href="explore.html">Discover</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav pull-right">
+        <li><a href="index.html">Logout</a></li>
+        </ul>
+      <p class="navbar-text pull-left">Hi Erin</p>
+      <form class="navbar-form navbar-right">
+      <div class="input-group">
+       
+        <input type="text" class="form-control" placeholder="Search">
+        <div class="input-group-btn">
+
+         <button class="btn btn-default" type="submit">
+                 <a href="otherprofile.html" class="glyphicon glyphicon-search"></a>
+          </button>
+        </div>
+      </div>
+    </form>
+    </div>
+  </div>
+</nav>
+  
+<br>
+<br>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <img src="images/tme.gif" style= "width:30%">
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container">
+<div class="row">
+  <div class="col-lg-12">
+<div class="img-wrapper">
+    <img class="img-responsive" src="images/wallet.png">
+    <div class="img-overlay">
+      <button class="btn btn-default btn-responsive">Make a deposit</button>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<br>
+<br>
+<br>
+
+
+<!--activity table-->
+<div class="container">
+<div class="row">
+    <div class="col-md-12">
+    <center>
+    <h2>Activity</h>
+    </center>
+       <table class="table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Secret Posted</th>
+        <th>Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>27/8/17</td>
+        <td>I always answer the door in my grandpas old wheelchair so that the pizza guy doesn’t think I’m lazy</td>
+        <td>$50</td>
+      </tr>
+      <tr>
+        <td>10/7/17</td>
+        <td>I once lifted up a persons scooter and placed it in a handicapped spot. Then I parked where the scooter had been.</td>
+        <td>$75</td>
+      </tr>
+      <tr>
+        <td>30/6/17</td>
+        <td>My wife, when she goes to sleep, has really shallow breathing, so I put a tissue on her face to make sure there’s a visual cue, you know, that she’s breathing. Sometimes, I forget to pull the tissue off and she wakes up really confused</td>
+        <td>$18</td>
+      </tr>
+      <tr>
+        <td>27/6/17</td>
+        <td>If I watch a scary movie I have to watch it early enough so that I can watch at least 2 disney movies before going to bed</td>
+        <td>$8</td>
+      </tr>
+      <tr>
+        <td>10/6/17</td>
+        <td>I make up names and back stories for the people I see every day on the train. Doris and Ricardo are my favorites</td>
+        <td>$15</td>
+      </tr>
+      <tr>
+        <td>2/6/17</td>
+        <td>Sometimes I type “Sent from my iPhone” at the end of an email when I’m really at my computer so I can get a way with a really short reply</td>
+        <td>$34</td>
+      </tr>
+      <tr>
+        <td>25/5/17</td>
+        <td>If I spin around clockwise for some reason, I have to spin around counterclockwise right away so as to “unwind” myself</td>
+        <td>$3</td>
+      </tr>
+      <tr>
+        <td>4/5/17</td>
+        <td>When putting on my clothes, I put them on in order of what I would want on most if there was a sudden fire and I had to go outside immediately</td>
+        <td>$8</td>
+      </tr>
+      <tr>
+        <td>18/3/17</td>
+        <td>I practice conversations alone in my car. Out loud. In different variations, and degrees. Just in case they go the way I think they might go, I will have quick and witty responses.</td>
+        <td>$42</td>
+      </tr>
+       <tr>
+        <td>30/2/17</td>
+        <td>I think of emergency/escape plans for every room/building I walk into for a variety of situations (public shooter, terrorist attack, natural disaster, etc.)</td>
+        <td>$12</td>
+      </tr>
+      <tr>
+        <td>24/2/17</td>
+        <td>When I was fourteen I ran naked in the street, just to know what it felt like to run naked</td>
+        <td>$55</td>
+      </tr>
+        <tr>
+        <td>19/2/17</td>
+        <td>When I’m driving by myself I read billboards in a British accent. I’m not British</td>
+        <td>$14</td>
+      </tr>
+        <tr>
+        <td>11/2/17</td>
+        <td>I know someone whose father is also his grandfather</td>
+        <td>$60</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+    </div>    
+  </div>
+</div>
+
+
+
+
+
+  <div class="navbar navbar-default navbar-footer navbar-fixed-bottom">
+    <div class="container">
+    <center>
+           <a href="profile.html">Home |</a>
+           <a href="#">About Us |</a>
+           <a href="#">Privacy |</a>
+           <a href="#">Settings |</a>
+           <a href="#">Terms |</a>
+           <a href="#">Help |</a>
+           <a href="#">Contact |</a>
+           <a href="index.html">Logout</a>
+     </center>      
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

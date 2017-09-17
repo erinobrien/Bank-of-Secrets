@@ -1,0 +1,129 @@
+body {
+  display: block;
+  background-color: white;
+}
+
+/*navbar code sourced from an example off w3 schools*/
+.navbar {
+    margin-bottom: 0;
+    background-color: #FFC818; 
+    font-size: 12px !important;
+    letter-spacing: 3px;
+    display: inline-block;
+    text-align: center;
+    border-color: transparent;
+    font-family: 'Avenir';
+
+}
+
+.navbar li a, .navbar .navbar-brand { 
+    color: #1A2930 !important;
+
+}
+
+.navbar-nav li a:hover {
+    color: white !important;
+    background-color: #1A2930 !important;
+    border-radius: 100px;
+
+}
+
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);  /* code sourced form https://www.bootply.com/SGYC6BWeBK*/
+  }
+} 
+
+
+
+.form-control{
+  border-radius: 30px;
+}
+
+
+.btn-default{
+  border-radius: 30px;
+}
+
+
+.btn-primary{
+  border-radius: 30px;
+  background-color: #1A2930 !important;
+  border: #1A2930;
+  color: white !important;
+  letter-spacing: 1px;
+  font-family: 'Avenir';
+  font-size: 20px;
+}
+
+
+.welcome{
+  font-family: "Avenir";
+  letter-spacing: 5px;
+
+}
+
+.information {
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-family: "Avenir";
+  font-size: 12px;
+}
+
+.signup{
+  font-family: "Avenir";
+  letter-spacing: 1px;
+
+}
+
+.button {
+  display: inline-block;
+  border-radius: 30px;
+  background-color: #1A2930;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 50px;
+  width: 60%;
+  font-family: "Avenir";
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*sign up hover effect sourced from w3 schools*/
+
+
+.col-lg-4{
+  font-family: 'Avenir';
+  font-size: 15px;
+}
+
+

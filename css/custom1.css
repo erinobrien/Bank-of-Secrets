@@ -1,0 +1,362 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+body{
+	background-color: white;
+  margin-bottom: 100px;
+  font-family: 'Avenir';
+}
+
+.jumbotron{
+  font-family: 'Avenir';
+  color: #1A2930;
+  background-color: white;
+  height: 100%;
+}
+
+.container{
+  font-family: 'Avenir';
+}
+
+
+
+/*glyphicons in bio*/
+.glyphicon-gift:before {
+  margin-right: 5px;
+}
+
+.glyphicon-education:before {
+  margin-right: 5px;
+}
+
+.glyphicon-map-marker:before {
+  margin-right: 5px;
+}
+
+.col-lg-2{
+  font-size:20px;
+  font-family: 'Avenir';
+  font-weight: lighter;
+  padding-top: 30px;
+}
+
+
+/*activity table*/
+.table{
+  font-family: 'Avenir';
+  font-size: 16px;
+}
+
+/*code sourced from stackoverflow*/
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, table>thead>tr>td, .table>thead>tr>th {
+    padding: 20px;
+}
+
+
+
+/*mywallet images*/
+/*code sourced from stackoverflow*/
+.img-wrapper {
+  position: relative;
+   width: 100%;
+ }
+
+.img-overlay {
+  position: absolute;
+  top: 100px;
+  bottom: 0;
+  left: 825px;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+
+/*make a deposit button*/
+.btn-responsive {
+  font-size: 14px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  margin: 6px;
+  padding: 10px;
+  color: #1A2930;
+}
+
+.btn-responsive:hover{
+  background-color: #1A2930;
+  color: white;
+
+}
+
+/*code from stackoverflow*/
+@media (max-width:760px) { 
+    .btn-responsive {
+        padding: 1px 5px;
+        font-size: 12px;
+        line-height: 1.5;
+        border-radius: 3px;
+    }
+}
+
+
+
+/*post a secret modal*/
+.input-group-addon{
+  border-radius: 30px;
+}
+
+/*image thumbnail*/
+.thumbnail{
+  border: none;
+  padding:0px;
+}
+
+
+/*navbar code sourced from w3 schools*/
+.navbar {
+    margin-bottom: 0;
+    background-color: #FFC818;
+    border: 0;
+    font-size: 12px !important;
+    letter-spacing: 4px;
+
+}
+
+.navbar li a, .navbar .navbar-brand { 
+    color: #1A2930 !important;
+
+}
+
+.navbar-nav li a:hover {
+    color: white !important;
+    background-color: #1A2930 !important;
+    border-radius: 100px;
+
+}
+
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);  /*sourced from https://www.bootply.com/SGYC6BWeBK*/
+  }
+} 
+
+
+
+
+/*footer*/
+.navbar-footer{
+  background-color: #F0F0F0;
+  font-size: 12px !important;
+  letter-spacing: 3px;
+  color: #1A2930;
+  padding-top: 15px;
+}
+
+
+
+.col-md-6{
+	text-align: center;
+}
+
+.form-control{
+	border-radius: 30px;
+  font-size: 16px;
+}
+
+.btn-default{
+	border-radius: 30px;
+}
+
+
+/*like and dislike buttons*/
+.btn-react{
+  margin: 6px;
+  padding: 15px;
+  color: #1A2930;
+  letter-spacing: 1px;
+}
+
+.btn-react:hover{
+  margin: 6px;
+  background-color: #1A2930;
+  color: white;
+
+}
+
+/*post button*/
+.btn-post{
+  margin: 6px;
+  padding: 10px;
+  color: #1A2930;
+  font-size:14px;
+  background-color: white;
+
+}
+
+.btn-post:hover{
+  margin: 6px;
+  background-color: #1A2930;
+  color: white; 
+ 
+
+}
+
+
+.alert {
+  display:inline-block;
+}
+
+
+
+/*panels*/
+.panel{
+  height: 200px;
+  position:relative;
+}
+.panel-profile{
+  height: 200px;
+  font-size: 20px;
+}
+
+.panel-feed{
+  height: 150px;
+  font-size: 18px;
+}
+
+.panel-discover{
+  height: 250px;
+  font-size: 18px;
+}
+
+
+.panel>.panel-heading:after,.panel>.panel-heading:before{
+  position:absolute;
+  top:11px;left:-16px;
+  right:100%;
+  width:0;
+  height:0;
+  display:block;
+  content:" ";
+  border-color:transparent;
+  border-style:solid solid outset;
+  pointer-events:none;
+
+}
+.panel>.panel-heading:after{
+  border-width:7px;
+  border-right-color:#f7f7f7;
+  margin-top:1px;
+  margin-left:2px;
+}
+.panel>.panel-heading:before{
+  border-right-color:#ddd;
+  border-width:8px;
+} /*code sourced from https://bootsnipp.com/snippets/featured/user-comment-example*/
+
+
+
+.col-lg-4{
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+   }
+
+.col-lg-3{
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: 'Avenir';
+  }
+
+ 
+
+/*code sourced from stackoverflow*/
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none;
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+
+
+
+.modal-content {
+    width:inherit;
+    height:inherit;
+    margin: 0 auto;
+    pointer-events:all;
+}
+
+
+
+
+.btn-primary{
+  border-radius: 30px;
+  background-color: #1A2930 !important;
+  border: 0 none;
+  color: white !important;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+#crossfade1 img {
+    position:absolute;
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;    
+    transition: opacity 1s ease-in-out;
+    float: left; 
+    height: 250px;
+    width: 250px;
+
+}
+ 
+#crossfade1 img.top:hover {
+    opacity:0;
+}
+
+
+#map{
+  padding-bottom: 50px;
+}
+
+hr{
+  width: 30%;
+  height: 2px;
+  border-width: 5px;
+  color: #1A2930;
+  background: #1A2930;
+  border:0;
+}

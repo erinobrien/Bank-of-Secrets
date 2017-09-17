@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyProfile</title>
+    <link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom1.css" rel="stylesheet">
+  </head>
+  <body>
+
+
+<!-- Post secret modal sourced form bootsnip.com-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+        <div class="modal-dialog vertical-align-center">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+
+                    </button>
+                     <h4 class="modal-title">Post a Secret</h4>
+
+                </div>
+                <div class="modal-body">
+      <textarea class="form-control" id="comments" name="comments" placeholder="How much are you willing to spend?" rows="5"></textarea>
+        </div>
+                <div class="modal-footer">
+
+                <div class="col-lg-5">
+                   <div class="input-group">
+                      <span class="input-group-addon">$</span>
+                        <input type="number" class="form-control" placeholder="Value of Secret" min="0.5" max="50">
+                   </div>   
+                   </div> 
+                    <a href="feed.html" class="btn btn-primary">Post Secret</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--navbar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-center">
+        <li><a href="profile.html"><span class="glyphicon glyphicon-user"></span></a></li>
+        <li><a href="mywallet.html">MyWallet</a></li>
+        <li><a href="feed.html">Feed</a></li>
+        <li><a href="#myModal" data-toggle="modal" data-target="#myModal">Post a Secret</a></li>
+        <li><a href="explore.html">Discover</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav pull-right">
+        <li><a href="index.html">Logout</a></li>
+        </ul>
+      <p class="navbar-text pull-left">Hi Erin</p>
+      <form class="navbar-form navbar-right">
+      <div class="input-group">
+       
+        <input type="text" class="form-control" placeholder="Search">
+        <div class="input-group-btn">
+
+         <button class="btn btn-default" type="submit">
+                 <a href="otherprofile.html" class="glyphicon glyphicon-search"></a>
+          </button>
+        </div>
+      </div>
+    </form>
+    </div>
+  </div>
+</nav>
+
+<br>
+<br>
+<br>
+
+<div class="jumbotron">
+  <div class="container">
+   <div id="crossfade1">
+      <img class="bottom" src="images/avatar2.jpg"/>
+      <img class="top" src="images/avatar.jpg"/>
+    </div>    
+  </div> 
+
+<br>
+
+
+<div class="container">
+ <div class="row">
+      <div class="col-lg-6 col-lg-offset-4">
+        <div class="form-group">
+        <center>
+           <h4>Post a Secret</h4>
+           </center>
+            <textarea class="form-control" id="comments" name="comments" placeholder="How much are you willing to spend?" rows="5"></textarea>
+            <a href="feed.html" button class="btn btn-default btn-post pull-right">Post Secret</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="container">
+  <div class="row">
+      <div class="col-lg-3">
+        <center>
+      <h3>Erin O'Brien</h3>
+      <span class="text-muted"><p>@erin_obrien</p></span>
+        </center>
+      </div>
+    </div>
+  </div>
+
+
+</div> <!--jumbotron div-->
+
+
+
+
+
+<div class="container">
+ <div class="row">
+      <div class="col-lg-3">
+        <ul class="list-group">
+                <li class="list-group-item text-right text-muted" contenteditable="false"><span class="pull-left"><class="">Bio</span><a href="#">Edit</a></li>
+                <li class="list-group-item"><span class="glyphicon glyphicon-map-marker pull-left"></span>  Dunedin | Wellington</li>
+                <li class="list-group-item"><span class="glyphicon glyphicon-education pull-left"></span>  Studying Design</li>
+               </li>
+                <li class="list-group-item"><span class="glyphicon glyphicon-gift pull-left"></span>  October</li>
+               </li>
+            </ul>
+
+            <ul class="list-group">
+                <li class="list-group-item text-right text-muted" contenteditable="false"><span class="pull-left"><class="">Profile</span><a href="#">Manage</a></li>
+                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Member Since</strong></span> 19/05/17</li>
+                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Birthday</strong></span>28/10/97</li>
+                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Education</strong></span>Victoria</li>
+                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Country</strong></span> New Zealand
+               </li>
+            </ul>
+
+            <ul class="list-group">
+                <li class="list-group-item text-right text-muted" contenteditable="false"><span class="pull-left"><class="">Activity</span><a href="#">View</a></li>
+                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Posts</strong></span> 125</li>
+                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Followers</strong></span> 37</li>
+                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Following</strong></span> 78</li>
+            </ul>
+        </div>
+
+
+
+<!--panels-->
+<!--code sourced from w3 schools-->
+<div class="col-lg-9">
+<div class="panel panel-default panel-feed">
+<div class="panel-heading">
+<strong>Erin O'Brien</strong> <span class="text-muted">posted 32 minutes ago</span>
+<span class="pull-right">$9 earned</span>
+</div>
+<div class="panel-body">
+Sometimes I type “Sent from my iPhone” at the end of an email when I’m really at my computer so I can get a way with a really short reply
+</div><!-- /panel-body -->
+</div><!-- /panel panel-default -->
+</div>
+
+<div class="col-lg-9">
+<div class="panel panel-default panel-feed">
+<div class="panel-heading">
+<strong>Erin O'Brien</strong> <span class="text-muted">posted 1 day ago</span>
+<span class="pull-right">$24 earned</span>
+</div>
+<div class="panel-body">
+If I watch a scary movie I have to watch it early enough so that I can watch at least 2 disney movies before going to bed
+</div><!-- /panel-body -->
+</div><!-- /panel panel-default -->
+</div>
+
+<div class="col-lg-9 pull-right">
+<div class="panel panel-default panel-feed">
+<div class="panel-heading">
+<strong>Erin O'Brien</strong> <span class="text-muted">posted a week ago</span>
+<span class="pull-right">$58 earned</span>
+</div>
+<div class="panel-body">
+I always answer the door in my grandpas old wheelchair so that the pizza guy doesn’t think I’m lazy
+</div><!-- /panel-body -->
+</div><!-- /panel panel-default -->
+</div>
+
+
+
+  <div class="navbar navbar-default navbar-footer navbar-fixed-bottom">
+    <div class="container">
+    <center>
+           <a href="profile.html">Home |</a>
+           <a href="#">About Us |</a>
+           <a href="#">Privacy |</a>
+           <a href="#">Settings |</a>
+           <a href="#">Terms |</a>
+           <a href="#">Help |</a>
+           <a href="#">Contact |</a>
+           <a href="index.html">Logout</a>
+     </center>      
+    </div>
+    
+    
+  </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
